@@ -1,0 +1,4 @@
+export enum ActionTypes {
+  ASYNC_GET_COUNTER = 'ASYNC_GET_COUNTER',
+  ASYNC_SET_COUNTER = 'ASYNC_SET_COUNTER'
+}
