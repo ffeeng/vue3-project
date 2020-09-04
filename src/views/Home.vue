@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <HelloWorld @reset-counter="resetCounter" msg="Welcome to Vue.js" />
+    <hello-world @reset-counter="resetCounter" msg="Welcome to Vue.js" ></hello-world>
   </div>
 </template>
 
