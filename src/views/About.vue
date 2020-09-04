@@ -17,6 +17,7 @@ export default defineComponent({
   computed: {
     counter: {
       get () {
+        const a = '234' + 234
         return this.$store.state.counter
       },
       set (value: number) {
